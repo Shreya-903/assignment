@@ -8,14 +8,19 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 100px;
+  margin-left: 100px;
+  gap:20px;
 }
 
+.jobschart{
+  width: 75vw;
+}
 .tables-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: flex-start;
   width: 100%;
 }
