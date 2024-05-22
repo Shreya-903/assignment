@@ -1,0 +1,52 @@
+[
+    {
+        "work_year": 2020,
+        "total_jobs": 75,
+        "average_salary_usd": 359955.28,
+        "jobs": [
+            { "title": "Data Scientist", "count": 30 },
+            { "title": "Data Engineer", "count": 25 },
+            { "title": "ML Engineer", "count": 20 }
+        ]
+    },
+    {
+        "work_year": 2021,
+        "total_jobs": 218,
+        "average_salary_usd": 562823.4357798165,
+        "jobs": [
+            { "title": "Data Scientist", "count": 80 },
+            { "title": "Data Engineer", "count": 70 },
+            { "title": "ML Engineer", "count": 68 }
+        ]
+    },
+    {
+        "work_year": 2022,
+        "total_jobs": 1655,
+        "average_salary_usd": 168712.69607250756,
+        "jobs": [
+            { "title": "Data Scientist", "count": 800 },
+            { "title": "Data Engineer", "count": 700 },
+            { "title": "ML Engineer", "count": 155 }
+        ]
+    },
+    {
+        "work_year": 2023,
+        "total_jobs": 8519,
+        "average_salary_usd": 159964.29604413663,
+        "jobs": [
+            { "title": "Data Scientist", "count": 4000 },
+            { "title": "Data Engineer", "count": 3000 },
+            { "title": "ML Engineer", "count": 1519 }
+        ]
+    },
+    {
+        "work_year": 2024,
+        "total_jobs": 6027,
+        "average_salary_usd": 152936.18168242907,
+        "jobs": [
+            { "title": "Data Scientist", "count": 3000 },
+            { "title": "Data Engineer", "count": 2027 },
+            { "title": "ML Engineer", "count": 1000 }
+        ]
+    }
+]

@@ -1,0 +1,104 @@
+body {
+  background-color: #e2ebf5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.tables-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.main-table-container {
+  margin-bottom: 20px;
+  width: 60%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.chart-container {
+  margin-top: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  background-color: #ffffff;
+}
+
+.second-table-container {
+  width: 30%; 
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.table-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #373d3f;
+}
+
+.table-container {
+  margin-top: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #b1c2d6;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #d0e0f5;
+}
+
+tr:nth-child(even) {
+  background-color: #eff6ff;
+}
+
+tr:hover {
+  background-color: #cfd8dc;
+}
+
+
+
+.apexcharts-title-text {
+  font-size: 24px;
+  color: #373d3f;
+}
+
+
+
+@media (max-width: 768px) {
+  .tables-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-table-container,
+  .second-table-container {
+    width: 80%;
+  }
+
+  .chart-container {
+    width: 80%;
+  }
+}
